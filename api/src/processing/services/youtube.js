@@ -64,6 +64,7 @@ const cloneInnertube = async (customFetch, useSession) => {
             fetch: customFetch,
             retrieve_player,
             cookie,
+            player_id: '0004de42',
             po_token: useSession ? sessionTokens?.potoken : undefined,
             visitor_data: useSession ? sessionTokens?.visitor_data : undefined,
         });
